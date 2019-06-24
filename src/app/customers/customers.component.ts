@@ -2,8 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-customers',
-  templateUrl: './customers.component.html',
-  styleUrls: ['./customers.component.css']
+  templateUrl: './customers.component.html'
 })
 export class CustomersComponent implements OnInit {
   title: string;
@@ -20,5 +19,4 @@ export class CustomersComponent implements OnInit {
       { id: 4, name: 'Jim Thomas', city: 'New York', orderTotal: 599.99, customerSince: new Date(2002, 10, 31)},
     ];
   }
-
 }
